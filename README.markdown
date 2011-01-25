@@ -1,6 +1,12 @@
 # Phonecast
 ## A simple example of using the Twilio API to gather information from a caller and return their weather forecast
 
+## Demo
+
+To get your weather forecast, dial [(512) 518-5868](tel:+15125185868)
+
+## Fork it yourself!
+
 You can deploy and run your own instance of this site in just a few easy steps:
 
 - Pull down a copy of this project for yourself, with `git clone git://github.com/mattt/Phonecast.git`
