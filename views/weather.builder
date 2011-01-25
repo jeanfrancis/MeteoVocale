@@ -1,4 +1,4 @@
-xml.tag! :Say, "Current Conditions:"
+xml.tag! :Say, "Current Conditions for #{@weather.location.city}, #{@weather.location.region}:"
 xml.tag! :Say, "#{@weather.condition.temp} degrees #{@weather.units.temperature == 'F' ? "Fahrenheit" : "Celsius"}"
 xml.tag! :Say, "#{@weather.condition.text}"
 xml.tag! :Pause, :length => 2
