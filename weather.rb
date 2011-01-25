@@ -8,7 +8,7 @@ module Weather
     enable :reload_templates
   
     post '/start.twiml' do
-      builder :index
+      builder :start
     end
   
     post '/weather.twiml' do
